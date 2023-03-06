@@ -18,7 +18,7 @@ parser.add_argument('--lr_optim',type = float, help = "learning rate for the gra
 parser.add_argument('--debug', action='store_true',
         default=False, help='debug mode')
 parser.add_argument('--decay',type=str,default="n",help="whether to use decay or not")
-parser.add_argument('--plots',type=str,default="n",help="whether to plot the acc or not")
+parser.add_argument('--plots',type=str,default="y",help="whether to plot the acc or not")
 parser.add_argument('--test',type=str,default="y",help="Test only")
 parser.add_argument('--only_gcn', action='store_true',
         default=False, help='test the performance of gcn without other components')
