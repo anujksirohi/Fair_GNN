@@ -1,4 +1,3 @@
-# Code Adapted from Pro-GNN(https://github.com/ChandlerBang/Pro-GNN)
 import time
 import argparse
 import numpy as np
